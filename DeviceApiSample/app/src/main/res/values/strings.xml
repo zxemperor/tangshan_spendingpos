@@ -1,0 +1,191 @@
+<resources>
+    <!-- app -->
+    <string name="app_name">DeviceApiSample</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="module_desc_title">Module Desc:</string>
+    <string name="message">Message：</string>
+    <string name="clean">clean</string>
+
+    <string name="permission_tip">This demo needs to allow all permissions to run, please give all permissions in settings - application - DeviceApiSample</string>
+
+    <!-- main -->
+    <string name="main_module_desc">When used on the C10 terminal, before using,  please give all permissions in settings - application - DeviceApiSample</string>
+
+    <string name="Pinpad">Pinpad</string>
+    <string name="MagCard">MagCard Reader</string>
+    <string name="ICCpuCard">ICCPUCard Reader</string>
+    <string name="PsamCard">PSAMCard Reader</string>
+    <string name="SyncCard">SyncCard Reader</string>
+    <string name="SIMCard">SIM Serial Card Reader</string>
+    <string name="RfCpuCard">RFCPUCard Reader</string>
+    <string name="MifareCard">MifareOneCard Reader</string>
+    <string name="IDCard">IDCard Reader</string>
+    <string name="Printer">Printer</string>
+    <string name="SerialPort">SerialPort</string>
+    <string name="CashBox">CashBox</string>
+    <string name="SignPanel">Sign Panel</string>
+    <string name="C10SubscreenDevice">C10 Subscreen Device</string>
+    <string name="C10DigledDevice">C10 Digled Device</string>
+    <string name="Algorithm">Algorithm</string>
+    <string name="System">SystemInterface</string>
+    <string name="SubscreenActivity">SubscreenActivity</string>
+    <string name="CameraScanner">Camera Scanner</string>
+    <string name="InnerScanner">Inner Scanner</string>
+    <string name="Scanner">External Scanner</string>
+    <string name="Led">Led</string>
+    <string name="Beeper">Beeper</string>
+    <string name="Par">PAR ParameterFile Interface</string>
+
+    <!-- public -->
+    <string name="button_search_card">Search Card</string>
+    <string name="button_stop_search">Stop Search</string>
+    <string name="button_card_power">Card Power</string>
+    <string name="button_card_halt">Card Halt</string>
+    <string name="button_card_exist">Card Exist</string>
+    <string name="button_exchangeApdu">APDU Exchange</string>
+    <string name="button_read_data">Read Data</string>
+    <string name="button_write_data">Write Data</string>
+    <string name="button_auth_block">Auth Block</string>
+    <string name="button_add_value">Add Value</string>
+    <string name="button_reduce_value">Reduce Value</string>
+    <string name="button_change_pwd">Change Password</string>
+    <string name="button_read_card_status">Read Card Status</string>
+    <string name="button_test_io">Test IO</string>
+    <string name="button_open">Open</string>
+    <string name="button_close">Close</string>
+    <string name="button_init">Init</string>
+    <string name="button_device_type">Device Type</string>
+    <string name="button_load_keys">Load Keys</string>
+    <string name="button_input_pin">Entry Pin</string>
+    <string name="button_calc_mac">Calc Mac</string>
+    <string name="button_encrypt_td_data">Encrypt TD Data</string>
+    <string name="button_encrypt_data">Encrypt Data</string>
+    <string name="button_decrypt_data">Decrypt Data</string>
+    <string name="button_start_print">Start Print</string>
+    <string name="button_front_scan">Front Scan</string>
+    <string name="button_back_scan">Back Scan</string>
+    <string name="button_start_scan">Start Scan</string>
+    <string name="button_stop_scan">Stop Scan</string>
+    <string name="button_start_beeper">Start Beep</string>
+    <string name="button_stop_beeper">Stop Beep</string>
+    <string name="button_start_sign">Start Sign</string>
+    <string name="button_display">Display</string>
+    <string name="button_clear">Clear</string>
+    <string name="button_start_flash">Start Flash</string>
+    <string name="button_stop_flash">Stop Flash</string>
+    <string name="button_digled_info">Digled Info</string>
+    <string name="button_start_activity_on_subscreen">Start Activity On Subscreen</string>
+    <string name="button_start_app_on_subscreen">Start App On Subscreen</string>
+    <string name="button_set_subscreen_app">Set Subscreen App</string>
+    <string name="button_remove_subscreen_app">Remove Subscreen App</string>
+    <string name="button_get_subscreen_info">Get Subscreen Info</string>
+    <string name="button_send_data">Send Data</string>
+    <string name="button_calc_data">Calc Data</string>
+    <string name="button_update_datetime">Update Datetime</string>
+    <string name="button_reboot">Reboot</string>
+    <string name="button_device_info">Device Info</string>
+    <string name="button_exist">Exist</string>
+    <string name="button_first_run">First Run</string>
+    <string name="button_read_parameter">Read Parameter</string>
+    <string name="button_set_parameter">Write Parameter</string>
+    <string name="text_device_type">Device Type</string>
+    <string name="text_device_type_inner">Inner</string>
+    <string name="text_device_type_external">External</string>
+    <string name="text_card_type">Card Type</string>
+    <string name="text_slot_num">Slot Num</string>
+    <string name="text_slot_1">Slot 1</string>
+    <string name="text_slot_2">Slot 2</string>
+    <string name="text_slot_3">Slot 3</string>
+    <string name="text_slot_4">Slot 4</string>
+    <string name="text_baund_rate">Baund Rate</string>
+    <string name="text_data_bit">Data Bit</string>
+    <string name="text_data_bit_7">Bit 7</string>
+    <string name="text_data_bit_8">Bit 8</string>
+    <string name="text_parity">Parity</string>
+    <string name="text_parity_none">None</string>
+    <string name="text_parity_odd">Odd</string>
+    <string name="text_parity_even">Even</string>
+    <string name="text_device_type_br200_scanner">BR200 Scanner</string>
+    <string name="text_device_type_serialport_scanner">Serialport Scanner</string>
+    <string name="text_parameter_type">Parameter Type</string>
+    <string name="text_parameter_type_boolean">Boolean</string>
+    <string name="text_parameter_type_string">String</string>
+    <string name="hint_input_module_name">please input module name</string>
+    <string name="hint_input_file_name">please input file name</string>
+    <string name="hint_input_parameter_name">please input parameter name</string>
+    <string name="hint_input_parameter_value">please input parameter value，boolean type needs input true/false</string>
+
+    <!-- modules -->
+    <!-- Beeper -->
+    <string name="Beeper_module_desc">This module supports the terminal with beeper device, such as A8,P990 and W280PV3. this module is not supported for C10, P960, W280P and W280PV2.</string>
+
+    <!-- SyncCard -->
+    <string name="AT1604Card">AT1604Card</string>
+    <string name="AT1608Card">AT1608Card</string>
+    <string name="AT24CxxCard">AT24CxxCard</string>
+    <string name="SIM4428Card">SIM4428Card</string>
+    <string name="SIM4442Card">SIM4442Card</string>
+    <string name="SyncCard_module_desc">This module is used to introduce the basic operation of all kinds of sync cards, including AT series cards(AT101, AT102, AT1601, AT1604, AT153, AT1608, AT24Cxx)
+                 and SIM series cards(SIM4428 and SIM4442)</string>
+    <string name="AT1604Card_module_desc">This module is the operation example of sync cards , including AT101, AT102, AT1601 and AT1604 card</string>
+    <string name="AT1608Card_module_desc">This module is the operation example of sync cards , including AT153 and AT1608 card</string>
+    <string name="AT24CxxCard_module_desc">This module is the operation example of AT24Cxx card</string>
+    <string name="SIM4428Card_module_desc">This module is the operation example of SIM4428 card</string>
+    <string name="SIM4442Card_module_desc">This module is the operation example of SIM4442 card</string>
+
+    <!-- RfCpuCard -->
+    <string name="RfCpuCard_module_desc">This module can be used directly in the terminal with RF module, otherwise, the external deivce needed to be called. For inner RFCardReader,
+				RFCardReader should be initialized by calling getInstance() method, and search card with RFCardReader.OnSearchListener,
+				For external RFCardReader,RFCardReader should be initialized by calling getOtherInstance(\"EXTRFCARD\") method, and search card with RFCardReader.OnSearchListenerEx.</string>
+
+    <!-- MifareCard -->
+    <string name="MifareCard_module_desc">This module can be used directly in the terminal with RF module,otherwise, the external deivce needed to be called. When using external device,
+				RFCardReader should be instantiated by calling getOtherInstance() method by passing in the deivce name EXTRFCARD. and search card with OnSearchListenerEx.</string>
+
+    <!-- IDCard -->
+    <string name="IDCard_module_desc">This module can be used in the terminal with SAMV module. This module can be adapted to W280P terminal at present, Other terminals are not supported for the time being.</string>
+
+    <!-- CashBox -->
+    <string name="CashBox_module_desc">According to the different types of terminal access CashBox distinction. There are appropriative cashBox port in C10, A8 and other terminals need to be connected through a base or a conversion line.</string>
+
+    <!-- CameraScanner -->
+    <string name="CameraScanner_module_desc">Scanning code with camera. The A8 terminal has a front and back camera for different scannings. Other terminals, like A7, W280P and C10, have only functions of back scanning with only back camera.
+                In addition, the precondition of scanning is that the terminal has been integrated with the scanning library.</string>
+
+    <!-- InnerScanner -->
+    <string name="InnerScanner_module_desc">This module can be used in the terminal with scanning hardware, like P990 ,P960 and so on.</string>
+
+    <!-- Scanner -->
+    <string name="Scanner_module_desc">This module supports external scanning devices.</string>
+
+    <!-- Pinpad -->
+    <string name="Pinpad_module_desc">This module can be used directly in the terminal with Pinpad module,otherwise, the external deivce needed to be called. When using inner Pinpad,
+				Pinpad should be instantiated by passing in the device name IPP. When using external device, Pinpad should be instantiated by passing in the device name COM_EPP.</string>
+
+    <!-- Printer -->
+    <string name="Printer_module_desc">The terminal should use external printer if there is no inner printer, like bluetooth printer and so on. This sample is aimed at inner printer.</string>
+
+    <!-- Led -->
+    <string name="Led_module_desc">This module can be used directly in the terminal with RF module, otherwise, the external deivce needed to be called.
+                For C10, W280P terminals and so on, When the pinpad module is being used, the RF operation object should be instantiated by passing in the device name "EXTRFCARD".</string>
+
+    <!-- SignPanel -->
+    <string name="SignPanel_module_desc">This module can be used in the terminals that supports the sign panel and the versions of master control and sign panel driver meet the requirements(like S160 pinpad).</string>
+
+    <!-- C10SubscreenDevice -->
+    <string name="C10SubscreenDevice_module_desc">This is appropriative interface for C10 subscreen, which is used to interact with the guest screen. This module only can be used in C10 terminal with dual screen.</string>
+
+    <!-- SubscreenActivity -->
+    <string name="SubscreenActivity_module_desc">The sample activity projected onto the guest screen.</string>
+    .
+    <!-- C10DigledDevice -->
+    <string name="C10DigledDevice_module_desc">This module is appropriative interface for digital tube of C10 single screen, and can be used to intercat with digital tude. This module only can be used in C10 terminal with single screen.</string>
+
+    <!-- System -->
+    <string name="System_module_desc">This module is used to get the system information, like SN, and restart the terminal and update the time.</string>
+
+    <!-- Par -->
+    <string name="Par_module_desc">par parameter file operation</string>
+
+</resources>
